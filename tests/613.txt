@@ -1,0 +1,1 @@
+SELECT FLOOR(42.3);

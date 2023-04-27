@@ -1,0 +1,1 @@
+CREATE PUBLIC SYNONYM syn_tabl FOR tabl; CREATE SYNONYM schm.syn_tabl FOR tabl; SELECT syn.synname, sp.nspname FROM SYS_SYNONYM syn, SYS_NAMESPACE sp WHERE syn.synnamespace = sp.oid;

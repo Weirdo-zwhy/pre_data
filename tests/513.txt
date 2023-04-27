@@ -1,0 +1,1 @@
+SELECT clob_export (lob, 'clob_asc_out.data','sqlascii') FROM test_clob;

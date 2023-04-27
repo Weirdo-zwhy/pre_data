@@ -1,0 +1,1 @@
+CREATE TABLE xmltbl (a int, b text); INSERT INTO xmltbl VALUES (1, 'one'), (2, 'two'), (-1, null); DECLARE xc CURSOR WITH HOLD FOR SELECT * FROM xmltbl ORDER BY 1, 2; SELECT cursor_to_xml('xc'::refcursor, 5, false, true, '');

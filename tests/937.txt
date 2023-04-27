@@ -1,0 +1,1 @@
+select * from sys_identify_object_as_address(1259, 14886, 0);

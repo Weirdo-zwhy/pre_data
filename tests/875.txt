@@ -1,0 +1,1 @@
+SELECT scale(8.41);

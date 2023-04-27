@@ -1,0 +1,1 @@
+SELECT json_equal('{"a":1}','{"a":1}') FROM dual; ç»æï¼ t SELECT json_equal('{"a":1}','{"a":2}') FROM dual; ç»æï¼ f SELECT json_equal('{"a":1}','{"a":1}' false on error) FROM dual; ç»æï¼ t

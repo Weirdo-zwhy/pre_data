@@ -1,0 +1,1 @@
+SELECT EXPORT_SET(6,'1','0',',',5);

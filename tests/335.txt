@@ -1,0 +1,1 @@
+SELECT * FROM distributors ORDER BY name; SELECT * FROM distributors ORDER BY 2;

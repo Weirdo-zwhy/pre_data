@@ -1,0 +1,1 @@
+SELECT SHA512('abc'::bytea);

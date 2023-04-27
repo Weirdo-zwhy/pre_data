@@ -1,0 +1,1 @@
+SELECT OCTET_LENGTH( 'abc '::text ) "LENGTH" FROM DUAL;

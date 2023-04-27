@@ -1,0 +1,1 @@
+BEGIN SELECT (pwd = $2) INTO passed FROM pwds WHERE username = $1; RETURN passed; END; / \set SQLTERM ;

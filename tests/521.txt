@@ -1,0 +1,1 @@
+SELECT CONTAINS('test of contains','contain'); SELECT CONTAINS('test of contains','contain');

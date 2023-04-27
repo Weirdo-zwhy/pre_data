@@ -1,0 +1,1 @@
+ALTER SYNONYM syn_tab OWNER TO U1;

@@ -1,0 +1,1 @@
+select cust_last_name,CASE credit_limit WHEN 100 THEN 'Low' when 5000 then 'high' ELSE 'Medium' END As credit From customer ORDER BY cust_last_name, credit;

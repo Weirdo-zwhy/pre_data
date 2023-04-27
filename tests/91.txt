@@ -1,0 +1,1 @@
+CREATE SERVER myserver FOREIGN DATA WRAPPER kingbase_fdw OPTIONS (host 'foo', dbname 'foodb', port '54321');

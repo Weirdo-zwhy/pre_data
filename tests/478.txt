@@ -1,0 +1,1 @@
+SELECT array_to_tsvector('{fat,cat,rat}'::text[]);

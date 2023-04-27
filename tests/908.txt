@@ -1,0 +1,1 @@
+SELECT STRIP('fat:2,4 cat:3 rat:5A'::tsvector);

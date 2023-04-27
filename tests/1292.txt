@@ -1,0 +1,1 @@
+COMMENT ON TABLE mytable IS NULL;

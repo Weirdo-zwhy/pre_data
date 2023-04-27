@@ -1,0 +1,1 @@
+SELECT IF(100, 'T', 'F') AS RESULT1, IF(1 - 1, 'T', 'F') AS RESULT2, IF('100', 'T', 'F') AS RESULT3, IF(NULL, 'T', 'F') AS RESULT4;

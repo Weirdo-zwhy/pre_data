@@ -1,0 +1,1 @@
+SELECT * FROM t1; UPDATE a = 2, b = 2, c = 2; SELECT * FROM t1;

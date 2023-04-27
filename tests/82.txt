@@ -1,0 +1,1 @@
+INSERT INTO sal_emp VALUES ('Bill', '{10000, 10000, 10000, 10000}', '{{"meeting", "lunch"}, {"meeting"}}'); ERROR: Multidimensional arrays must have sub-arrays with matching dimensions.

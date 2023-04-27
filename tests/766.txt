@@ -1,0 +1,1 @@
+SELECT LENGTHB('1001'::bit) bit_lengthb, lengthb('100111111110000000000000000000000000001111'::bytea) bytea_lengthb; FROM DUAL;

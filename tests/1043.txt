@@ -1,0 +1,1 @@
+select variance(id) from (values(1),(2),(3),(100)) as t(id);

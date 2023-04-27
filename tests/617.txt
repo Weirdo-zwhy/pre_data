@@ -1,0 +1,1 @@
+SELECT format('Testing %3$s, %2$s, %1$s', 'one', 'two', 'three'); ç»æï¼Testing three, two, one SELECT format('|%*2$s|', 'foo', 10, 'bar'); ç»æï¼| bar| SELECT format('|%1$*2$s|', 'foo', 10, 'bar'); ç»æï¼| foo|

@@ -1,0 +1,1 @@
+SELECT $$the lexeme 'Joe''s' contains a quote$$::tsvector;

@@ -1,0 +1,1 @@
+SELECT string_agg(a,',') FROM (values('aaaa'),('bbbb'),('cccc')) g(a);

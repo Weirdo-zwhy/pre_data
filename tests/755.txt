@@ -1,0 +1,1 @@
+CREATE TABLE test(id integer); INSERT INTO test values(1); INSERT INTO test values(3); INSERT INTO test values(6); SELECT id, lag(id, 1, 0) from test;

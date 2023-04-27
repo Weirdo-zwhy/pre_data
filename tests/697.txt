@@ -1,0 +1,1 @@
+SELECT json_build_object('foo',1,'bar',2);

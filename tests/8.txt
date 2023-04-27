@@ -1,0 +1,1 @@
+CREATE ACCESS METHOD heptree TYPE INDEX HANDLER heptree_handler;

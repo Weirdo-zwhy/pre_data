@@ -1,0 +1,1 @@
+DELETE FROM Q1_2021_sales WHERE amount_sold < 0;

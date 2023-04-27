@@ -1,0 +1,1 @@
+SELECT get_byte('Th\000omas'::bytea, 4);

@@ -1,0 +1,1 @@
+SELECT regexp_match('foobarbequebaz', 'bar.*que'); SELECT regexp_match('foobarbequebaz', '(bar)(beque)');

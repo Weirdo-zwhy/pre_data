@@ -1,0 +1,1 @@
+SELECT col FROM tab ORDER BY col USING sortop LIMIT 1;

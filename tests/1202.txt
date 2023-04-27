@@ -1,0 +1,1 @@
+alter resource group rgroup1 set (cpu_shares = 5000);

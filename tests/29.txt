@@ -1,0 +1,1 @@
+create directory dir1 as 'document'; CREATE DIRECTORY test=

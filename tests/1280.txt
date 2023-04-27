@@ -1,0 +1,1 @@
+ALTER TYPE rainbow RENAME VALUE 'R' TO 'A';

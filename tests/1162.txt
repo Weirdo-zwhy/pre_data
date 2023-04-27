@@ -1,0 +1,1 @@
+ALTER FOREIGN TABLE distributors ALTER COLUMN street SET NOT NULL;

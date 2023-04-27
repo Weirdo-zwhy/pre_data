@@ -1,0 +1,1 @@
+SELECT interval '1-2' year to month; SELECT interval '1' year; SELECT interval '14' month;

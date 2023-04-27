@@ -1,0 +1,1 @@
+SELECT insertxmlafter('<a xmlns="http://example.com"><b>test</b></a>', '//mydefns:b/text()', '<name>newnode</name>', ARRAY[ARRAY['mydefns', 'http://example.com']]);

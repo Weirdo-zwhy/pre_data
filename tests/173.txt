@@ -1,0 +1,1 @@
+CREATE TYPE int_varray AS VARRAY(10) OF INT;

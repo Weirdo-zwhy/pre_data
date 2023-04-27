@@ -1,0 +1,1 @@
+ALTER OPERATOR CLASS test_operator USING gist RENAME TO test_operator_new;

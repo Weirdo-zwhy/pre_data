@@ -1,0 +1,1 @@
+SELECT inet_same_family(('192.168.1.5/24', '::1'));

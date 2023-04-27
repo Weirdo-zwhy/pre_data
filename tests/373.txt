@@ -1,0 +1,1 @@
+SELECT substring('foobar' from 'o.b'); SELECT substring('foobar' from 'o(.)b');

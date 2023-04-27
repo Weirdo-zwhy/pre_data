@@ -1,0 +1,1 @@
+SELECT enum_range(null::rainbow); SELECT enum_range('orange'::rainbow,'green'::rainbow);

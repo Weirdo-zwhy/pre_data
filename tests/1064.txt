@@ -1,0 +1,1 @@
+CREATE TABLE tab_xml (a int, b xml); INSERT INTO tab_xml VALUES (1, '<a><b>1</b><b>2</b></a>'); INSERT INTO tab_xml VALUES (2, xml ('<a><b>3</b><c>4</c></a>')); SELECT t.* FROM tab_xml, table(xmlsequence(extract(b, '/a/*'))) AS t;

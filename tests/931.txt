@@ -1,0 +1,1 @@
+create table films( id int, title text ); CREATE UNIQUE INDEX title_idx ON films (title); select oid from sys_class where relname = 'title_idx'; SELECT sys_get_indexdef(247564); CREATE UNIQUE INDEX title_idx ON public.films USING btree (title) (1 row) SELECT sys_get_indexdef(247564, 0, true); CREATE UNIQUE INDEX title_idx ON public.films USING btree (title) (1 row)

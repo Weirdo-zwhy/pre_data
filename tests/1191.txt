@@ -1,0 +1,1 @@
+ALTER POLICY policy_name ON mytable RENAME TO new_policy_name;

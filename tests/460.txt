@@ -1,0 +1,1 @@
+SELECT appendchildxml('<test><value></value><value></value></test>', '/test/value', XMLPARSE(CONTENT '<name>newnode</name>'));

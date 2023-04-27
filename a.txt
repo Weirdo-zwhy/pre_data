@@ -1,0 +1,18 @@
+\set SQLTERM $
+CREATE OR REPLACE FUNCTION return_type(IN i INTEGER)
+RETURNS SETOF INTEGER AS
+DECLARE
+ v1 INTEGER;
+ v2 INTEGER;
+ v3 INTEGER;
+BEGIN
+ v1 := i + 1;
+ v2 := i + 2;
+ v3 := i + 3;
+ return next v1;
+ return next v2;
+ return next v3;
+ END;
+$
+\set SQLTERM ;
+select * from return_type(1);

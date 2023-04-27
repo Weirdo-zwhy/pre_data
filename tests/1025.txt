@@ -1,0 +1,1 @@
+SELECT select trunc(1.234556,3) "Truncate" FROM DUAL;

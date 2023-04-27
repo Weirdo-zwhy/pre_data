@@ -1,0 +1,1 @@
+SELECT TO_CHAR(media_col, 873) FROM media_tab;

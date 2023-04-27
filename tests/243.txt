@@ -1,0 +1,1 @@
+SELECT array_dims(1 || '[0:1]={2,3}'::int[]); SELECT array_dims(ARRAY[1,2] || 3);

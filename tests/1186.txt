@@ -1,0 +1,1 @@
+ALTER PACKAGE pkg RENAME TO pkg2;

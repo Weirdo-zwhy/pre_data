@@ -1,0 +1,1 @@
+SELECT UPPER(last_name) "Uppercase" FROM employees; create table test( input varchar2(100 char)); create table tuppper as select upper(input) as name from test;

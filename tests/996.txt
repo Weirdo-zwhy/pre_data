@@ -1,0 +1,1 @@
+SELECT * FROM colors WHERE col LIKE 'R'; SELECT * FROM colors WHERE col NOT LIKE 'R';

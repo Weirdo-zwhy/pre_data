@@ -1,0 +1,1 @@
+SELECT greatest('abc','abb','aba','bbb');

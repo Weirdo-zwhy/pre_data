@@ -1,0 +1,1 @@
+SELECT exp(1.0);

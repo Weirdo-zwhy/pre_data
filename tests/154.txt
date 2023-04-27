@@ -1,0 +1,1 @@
+CREATE TEXT SEARCH PARSER jieba ( START = jieba_start, GETTOKEN = jieba_gettoken, END = jieba_end, LEXTYPES = jieba_lextype, HEADLINE = prsd_headline );

@@ -1,0 +1,1 @@
+create directory public.dir2 as 'document'; CREATE DIRECTORY test=

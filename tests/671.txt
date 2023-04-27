@@ -1,0 +1,1 @@
+SELECT '["foo", "bar", "baz"]'::jsonb ? 'bar'; SELECT '{"foo": "bar"}'::jsonb ? 'foo'; SELECT '{"foo": "bar"}'::jsonb ? 'bar'; SELECT '{"foo": {"bar": "baz"}}'::jsonb ? 'bar'; SELECT '"foo"'::jsonb ? 'foo';

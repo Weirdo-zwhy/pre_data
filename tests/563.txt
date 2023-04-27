@@ -1,0 +1,1 @@
+SELECT decode(NULL,1,3,NULL,4);

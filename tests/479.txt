@@ -1,0 +1,1 @@
+SELECT array_upper( ARRAY[1,8,3,7], 1);

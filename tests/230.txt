@@ -1,0 +1,1 @@
+DROP OPERATOR ~ (none, bit), ! (bigint, none);

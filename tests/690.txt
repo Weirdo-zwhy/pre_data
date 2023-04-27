@@ -1,0 +1,1 @@
+SELECT JSON_ARRAY(SELECT f.title FROM films AS f where f.did = 103) AS film_titles;

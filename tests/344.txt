@@ -1,0 +1,1 @@
+SELECT distributors.* WHERE distributors.name = 'Westward';

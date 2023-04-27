@@ -1,0 +1,1 @@
+CREATE TABLE tinyint_fun(a tinyint); INSERT INTO tinyint_fun values('55'); INSERT INTO tinyint_fun values('100'); SELECT bit_and(a) from tinyint_fun;

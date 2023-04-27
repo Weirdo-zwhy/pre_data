@@ -1,0 +1,1 @@
+SELECT sys_indexes_size('test'); SELECT sys_indexes_size('24878');

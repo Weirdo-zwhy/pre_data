@@ -1,0 +1,1 @@
+select time_format('13:56:09','%H %h %k %l %I %i %S %s %p %r %T %f'); '13 01 13 1 01 56 09 09 PM 01:56:09 PM 13:56:09 000000' select time_format('09:56:09','%H %h %k %l %I %i %S %s %p %r %T %f'); '09 09 9 9 09 56 09 09 AM 09:56:09 AM 09:56:09 000000'

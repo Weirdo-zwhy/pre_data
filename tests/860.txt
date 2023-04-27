@@ -1,0 +1,1 @@
+select regexp_split_to_array('hello world', '\s+');

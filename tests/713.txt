@@ -1,0 +1,1 @@
+SELECT json_scalar(true ); SELECT json_scalar(1 returning json);

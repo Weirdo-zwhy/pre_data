@@ -1,0 +1,1 @@
+SELECT insertchildxmlbefore('<a>one<b>two</b></a>', '/a', 'b[1]', '<c>three</c>');

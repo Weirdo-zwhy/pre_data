@@ -1,0 +1,1 @@
+SELECT mid('hello world!', 2.8); SELECT mid('hello world!', 2.8, 5);

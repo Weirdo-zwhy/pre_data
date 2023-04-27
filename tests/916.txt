@@ -1,0 +1,1 @@
+SELECT x, SUM(y) FROM test1 GROUP BY x HAVING sum(y) > 3;

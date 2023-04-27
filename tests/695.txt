@@ -1,0 +1,1 @@
+SELECT JSON_ARRAYAGG( f.title ORDER BY f.title ASC) AS film_titles FROM films AS f;

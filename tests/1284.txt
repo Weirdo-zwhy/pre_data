@@ -1,0 +1,1 @@
+CREATE TABLE people (id int, name text); CREATE VIEW teacher AS SELECT * FROM people; SELECT * FROM teacher; ALTER TABLE people DROP name; ALTER VIEW teacher COMPILE; ALTER TABLE PEOPLE ADD COLUMN (name text); ALTER VIEW teacher COMPILE;

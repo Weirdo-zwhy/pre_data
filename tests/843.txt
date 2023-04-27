@@ -1,0 +1,1 @@
+SELECT quote_ident('Foo bar');

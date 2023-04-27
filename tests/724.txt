@@ -1,0 +1,1 @@
+SELECT * FROM jsonb_array_elements_text('["foo","bar"]');

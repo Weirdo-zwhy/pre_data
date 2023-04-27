@@ -1,0 +1,1 @@
+ALTER COLLATION "en_US" OWNER TO joe;

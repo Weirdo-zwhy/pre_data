@@ -1,0 +1,1 @@
+SELECT make, model, GROUPING_ID(make,model), sum(sales) FROM items_sold GROUP BY ROLLUP(make,model);

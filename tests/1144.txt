@@ -1,0 +1,1 @@
+ALTER DATABASE LINK my_dblink OWNER TO new_owner;

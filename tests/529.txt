@@ -1,0 +1,1 @@
+SELECT 'fat & rat'::tsquery; SELECT 'fat & (rat | cat)'::tsquery; SELECT 'fat & rat & ! cat'::tsquery;

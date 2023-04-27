@@ -1,0 +1,1 @@
+EXPLAIN SELECT sum(i) FROM foo WHERE i < 10;

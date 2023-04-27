@@ -1,0 +1,1 @@
+DECLARE liahona CURSOR FOR SELECT * FROM films;

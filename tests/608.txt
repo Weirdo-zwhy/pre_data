@@ -1,0 +1,1 @@
+select FIND_IN_SET('b','a,b,c,d'); SELECT FIND_IN_SET('O',16393);

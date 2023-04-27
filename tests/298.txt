@@ -1,0 +1,1 @@
+INSERT {ALL|FIRST} condition_clause [condition_clause].. condition_else_clause subquery;

@@ -1,0 +1,1 @@
+SELECT charindex('bar', 'foobarbar', 5);

@@ -1,0 +1,1 @@
+select timesub('2017-2-28 23:59:1'::timestamptz, '2017-3-1 1:1:1'::timestamptz);

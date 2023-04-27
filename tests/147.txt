@@ -1,0 +1,1 @@
+CREATE TABLESPACE encrypt_tsp OWNER genevieve LOCATION '/data/encrypt_tsp' with (encryption = trueï¼ enckey = '12345678ab');

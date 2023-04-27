@@ -1,0 +1,1 @@
+create table products ( product_no integer, name text, price numeric constraint positive_price check (price > 0) ); select oid from sys_constraint where conname = 'psitive_price'; SELECT sys_get_constraintdef(247537); SELECT sys_get_constraintdef(247537, false);

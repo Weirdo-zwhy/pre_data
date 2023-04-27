@@ -1,0 +1,1 @@
+SELECT array_fill( 7, ARRAY[3], ARRAY[2]);

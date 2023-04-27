@@ -1,0 +1,1 @@
+SELECT convert_from(âtext_in_utf8â,âUTF8â);

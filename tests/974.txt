@@ -1,0 +1,1 @@
+CREATE TYPE rainbow AS SET ('R', 'O', 'Y', 'G', 'B', 'P'); CREATE TABLE colors (col rainbow); INSERT INTO colors values ('R'),('G'),('R,G,G'),('r,y,p'),('P,B,O'); SELECT * FROM colors;

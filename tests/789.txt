@@ -1,0 +1,1 @@
+SELECT make_time(23, 59, 5.9);

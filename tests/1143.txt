@@ -1,0 +1,1 @@
+ALTER [PUBLIC] DATABASE LINK dblink_name OWNER TO new_owner; ALTER [PUBLIC] DATABASE LINK dblink_name RENAME TO new_name;

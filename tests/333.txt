@@ -1,0 +1,1 @@
+SELECT kind, sum(len) AS total FROM films GROUP BY kind;

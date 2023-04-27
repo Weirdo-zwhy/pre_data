@@ -1,0 +1,1 @@
+select time_to_sec(time'21:30:00');

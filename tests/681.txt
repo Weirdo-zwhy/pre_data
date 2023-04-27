@@ -1,0 +1,1 @@
+SELECT instrb(âbcaaaaabbcâ, âaâ, -2);

@@ -1,0 +1,1 @@
+SELECT date_trunc('hour', TIMESTAMP '2001-02-16 20:38:40'); SELECT date_trunc('year', TIMESTAMP '2001-02-16 20:38:40'); SELECT date_trunc('day', TIMESTAMP WITH TIME ZONE '2001-02-16 20:38:40+00'); SELECT date_trunc('hour', INTERVAL '3 days 02:47:33');

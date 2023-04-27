@@ -1,0 +1,1 @@
+SELECT * FROM colors WHERE col = 'O,B,P'; SELECT * FROM colors WHERE col <= 'O,B,P'; SELECT * FROM colors WHERE col > 'O,B,P';

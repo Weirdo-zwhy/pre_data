@@ -1,0 +1,1 @@
+DELETE FROM student WHERE sno IN (SELECT sno FROM score WHERE degree <= 60); DELETE 2 SELECT * FROM student;

@@ -1,0 +1,1 @@
+SELECT XMLELEMENT("Emp", XMLFOREST(e.employee_id, e.last_name, e.salary))"Emp Element" FROM employees e WHERE employee_id = 204; Emp Element <Emp> <EMPLOYEE_ID>204</EMPLOYEE_ID> <LAST_NAME>Baer</LAST_NAME> <SALARY>10000</SALARY> </Emp>

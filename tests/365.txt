@@ -1,0 +1,1 @@
+CREATE TABLE t1(id INT, name VARCHAR(20)); \set SQLTERM / DECLARE TYPE myrecord IS RECORD(id INT, name VARCHAR(20)); r1 myrecord; BEGIN r1.id := 1; r1.name := 'new'; UPDATE t1 SET ROW = r1; END; /

@@ -1,0 +1,1 @@
+INSERT INTO score (sno,cno,degree) values (102,1,59),(201,1,40); CREATE TABLE student_ng AS SELECT sno FROM score WHERE degree <= 60; SELECT 3 SELECT * FROM student_ng ; DELETE FROM student WHERE sno IN (SELECT * FROM student_ng ); DELETE 2 SELECT * FROM student;

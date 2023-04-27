@@ -1,0 +1,1 @@
+SELECT isfinite(date '2001-02-16'); SELECT isfinite(timestamp '2001-02-16 21:28:30'); SELECT isfinite(interval '4 hours');

@@ -1,0 +1,1 @@
+SELECT JSON_EXISTS(jsonb '{"key1": [1,2,3]}', 'strict $.key1[*] ?(@ > 2)'); SELECT JSON_EXISTS(jsonb '{"a": [1,2,3]}', 'lax $.a[5]' ERROR ON ERROR); SELECT JSON_EXISTS(jsonb '{"a": [1,2,3]}', 'strict $.a[5]');

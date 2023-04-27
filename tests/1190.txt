@@ -1,0 +1,1 @@
+ALTER PACKAGE pkg SET SCHEMA sch;

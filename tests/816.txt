@@ -1,0 +1,1 @@
+SELECT next_day ('2003-08-01 111211', 'TUESDAY');

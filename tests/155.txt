@@ -1,0 +1,1 @@
+CREATE TEXT SEARCH TEMPLATE intdict_template1 ( LEXIZE = dintdict_lexize, INIT = dintdict_init );

@@ -1,0 +1,1 @@
+select name from student where rownum < 5 order by sno;

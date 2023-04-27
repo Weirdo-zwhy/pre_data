@@ -1,0 +1,1 @@
+CREATE TABLE sales ( prod_id NUMBER(6) , cust_id NUMBER , time_id DATE , channel_id CHAR(1) , promo_id NUMBER(6) , state_id varchar2(2) , quantity_sold NUMBER(3) , amount_sold NUMBER(10,2) ) PARTITION BY HASH(channel_id) ( PARTITION p1 , PARTITION p2 , PARTITION p3 , PARTITION p4 );

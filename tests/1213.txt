@@ -1,0 +1,1 @@
+ALTER SCHEMA test RENAME TO test1;

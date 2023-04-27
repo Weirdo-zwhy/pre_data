@@ -1,0 +1,1 @@
+CREATE TABLE t_rownum(c INT); INSERT INTO t_rownum VALUES(0); INSERT INTO t_rownum VALUES(0); INSERT INTO t_rownum VALUES(0); UPDATE t_rownum SET c = ROWNUM; SELECT * FROM t_rownum;

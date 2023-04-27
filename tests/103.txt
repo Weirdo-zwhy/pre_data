@@ -1,0 +1,1 @@
+CREATE TABLE public.tab1(id int); INSERT INTO public.tab1 VALUES(1); CREATE PUBLIC SYNONYM syn_tab1 FOR public.tab1; SELECT * FROM syn_tab1; CREATE OR REPLACE INTERNAL FUNCTION public.increment(i integer) RETURNS integer AS $$ BEGIN RETURN i + 1; END; $$ LANGUAGE plsql; CREATE SYNONYM syn_inc FOR public.increment; CALL syn_inc(3);

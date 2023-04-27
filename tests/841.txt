@@ -1,0 +1,1 @@
+SELECT power(8, 3.0);

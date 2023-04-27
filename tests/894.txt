@@ -1,0 +1,1 @@
+SELECT SPLIT_PART('joeuser@mydatabase','@m',2);

@@ -1,0 +1,1 @@
+SELECT insertchildxml('<a>one <b></b> three <b></b></a>', '//b', 'name', '<name>newnode</name>'); SELECT insertchildxml('<a xmlns="http://example.com"><b>test</b></a>', '//mydefns:b/text()', 'name', '<name>newnode</name>', ARRAY[ARRAY['mydefns', 'http://example.com']]);

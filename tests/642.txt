@@ -1,0 +1,1 @@
+SELECT has_column_privilege(9999,'nosuchcol','select'); SELECT has_column_privilege('mytable','f2','select');

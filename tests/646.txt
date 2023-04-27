@@ -1,0 +1,1 @@
+SELECT has_database_privilege(current_database(), 'CONNECT');

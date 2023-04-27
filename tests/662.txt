@@ -1,0 +1,1 @@
+SELECT ifnull(NULL,'exp2'); SELECT ifnull('exp1','exp2');

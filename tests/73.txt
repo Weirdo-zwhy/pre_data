@@ -1,0 +1,1 @@
+CREATE RESOURCE GROUP group_name WITH (resource_name = value);

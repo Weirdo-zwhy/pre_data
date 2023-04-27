@@ -1,0 +1,1 @@
+CREATE OR REPLACE FUNCTION unnest2(anyarray) RETURNS SETOF anyelement AS $$ select $1[i][j] from generate_subscripts($1,1) g1(i), generate_subscripts($1,2) g2(j); $$ LANGUAGE sql IMMUTABLE; CREATE FUNCTION SELECT * FROM unnest2(ARRAY[[1,2],[3,4]]);

@@ -1,0 +1,1 @@
+SELECT to_tsvector('english', 'The Fat Rats');

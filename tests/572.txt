@@ -1,0 +1,1 @@
+SELECT div(9,4);

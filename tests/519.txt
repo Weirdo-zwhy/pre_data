@@ -1,0 +1,1 @@
+SELECT concat('abcde',2, NULL, 22);

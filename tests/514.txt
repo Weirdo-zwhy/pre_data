@@ -1,0 +1,1 @@
+SELECT clob_import ('clob_asc_out.data','sqlascii') FROM dual;

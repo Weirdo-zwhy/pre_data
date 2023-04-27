@@ -1,0 +1,1 @@
+select numtodsinterval(27 , 'hour') from dual;

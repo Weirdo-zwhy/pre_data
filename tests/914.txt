@@ -1,0 +1,1 @@
+SELECT SUBSTRING_INDEX('abc,ABC,bcd,BCD','bc',2) "Substring_index"; SELECT SUBSTRING_INDEX('ä¸­åäººæ°å ±åå½ååå°åº','å',-2.45) "Substring_index";

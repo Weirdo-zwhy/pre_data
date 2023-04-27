@@ -1,0 +1,1 @@
+ALTER FUNCTION sqrt(integer) DEPENDS ON EXTENSION mathlib;

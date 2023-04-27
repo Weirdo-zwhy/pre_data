@@ -1,0 +1,1 @@
+SELECT timezone('America/New_York', CAST(TO_DATE('1999-12-01 11:00:00','YYYY-MM-DD HH:MI:SS') AS TIMESTAMP)) AT TIME ZONE 'America/Los_Angeles' FROM DUAL;

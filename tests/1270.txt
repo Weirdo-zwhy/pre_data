@@ -1,0 +1,1 @@
+ALTER TRIGGER emp_stamp ENABLE;

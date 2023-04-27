@@ -1,0 +1,1 @@
+SELECT format('|%10s|', 'foo'); ç»æï¼| foo| SELECT format('|%-10s|', 'foo'); ç»æï¼|foo | SELECT format('|%*s|', 10, 'foo'); ç»æï¼| foo| SELECT format('|%*s|', -10, 'foo'); ç»æï¼|foo | SELECT format('|%-*s|', 10, 'foo'); ç»æï¼|foo | SELECT format('|%-*s|', -10, 'foo'); ç»æï¼|foo |

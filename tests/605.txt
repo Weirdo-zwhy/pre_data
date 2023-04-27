@@ -1,0 +1,1 @@
+SELECT extract(xml('<è¡><ID>1</ID></è¡>'), '/è¡/ID'); SELECT extract(xml('<è¡><ID>1</ID></è¡>'), '/è¡'); SELECT extract(xml('<è¡ å±æ§="æµè¯å±æ§"><ID>1</ID></è¡>'), '/è¡'); SELECT extract(xml('<è¡ å±æ§="æµè¯å±æ§"><ID>1</ID></è¡>'), '/è¡/@å±æ§');

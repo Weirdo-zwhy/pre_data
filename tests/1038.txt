@@ -1,0 +1,1 @@
+CREATE TYPE person_t AS OBJECT (name varchar2(100), ssn number); CREATE TABLE persons OF person_t; INSERT INTO persons VALUES (person_t('Bob', 1234)); INSERT INTO persons VALUES (person_t('Joe', 2345)); INSERT INTO persons VALUES (person_t('Tom', 5678)); SELECT value(t) FROM persons t;

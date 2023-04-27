@@ -1,0 +1,1 @@
+SELECT 'abc' ~ 'abc'; SELECT 'abc' ~ '^a'; SELECT 'abc' ~ '(b|d)'; SELECT 'abc' ~ '^(b|c)';

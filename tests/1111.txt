@@ -1,0 +1,1 @@
+select * from pivot_t1;

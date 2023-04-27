@@ -1,0 +1,1 @@
+SELECT generate_subscripts('{NULL,1,NULL,2}'::int[], 1) AS s;

@@ -1,0 +1,1 @@
+SELECT deletexml('<test><value>12</value><value><t>12</t><b>12</b></value></test>', '/test/value/t');

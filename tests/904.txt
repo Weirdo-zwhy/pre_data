@@ -1,0 +1,1 @@
+select str_to_date('2022-03-14 13:14:15','yyyy-MM-dd hh24:mi:ss') from dual;

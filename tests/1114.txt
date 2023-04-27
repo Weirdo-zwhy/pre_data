@@ -1,0 +1,1 @@
+select * from unpivot_t1 unpivot ((xiaoshou,xiaoshou2) for (jidu1,jidu2) in ((q1,q2),(q3,q4))) order by 1,2,3;

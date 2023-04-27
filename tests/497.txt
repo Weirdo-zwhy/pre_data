@@ -1,0 +1,1 @@
+SELECT 'a:1A fat:2B,4C cat:5D'::tsvector;

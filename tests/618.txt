@@ -1,0 +1,1 @@
+SELECT format('Testing %3$s, %2$s, %s', 'one', 'two', 'three'); ç»æï¼Testing three, two, three

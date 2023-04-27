@@ -1,0 +1,1 @@
+SELECT from_base64(to_base64('abc'));

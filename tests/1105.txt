@@ -1,0 +1,1 @@
+EXPLAIN SELECT * FROM student, score WHERE student.sno = score.sno;

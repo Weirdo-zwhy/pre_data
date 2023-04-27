@@ -1,0 +1,1 @@
+CREATE COLLATION german FROM "de_DE";

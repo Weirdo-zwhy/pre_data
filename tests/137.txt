@@ -1,0 +1,1 @@
+SELECT schedule[1:2][2] FROM sal_emp WHERE name = 'Bill';

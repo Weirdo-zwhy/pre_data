@@ -1,0 +1,1 @@
+SELECT JSON_query(jsonb '{"a": 1, "b": 2}', '$.* ? (@ > $"xy")' PASSING 1 AS XY); SELECT JSON_QUERY(jsonb '"aaa"', '$' RETURNING text KEEP QUOTES); SELECT JSON_query(jsonb '{"a":"b","c":"d"}', '$.ab' returning varchar empty on empty);

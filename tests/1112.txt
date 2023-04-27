@@ -1,0 +1,1 @@
+select * from (select month,name,nums,other from pivot_t1) pivot (sum(nums) for (name,other) in ( ('apple','a'), ('orange','b') , ('grape','c') , ('apple','d') , ('orange','d')));

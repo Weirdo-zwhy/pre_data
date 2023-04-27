@@ -1,0 +1,1 @@
+SELECT get_bit('Th\000omas'::bytea, 45);

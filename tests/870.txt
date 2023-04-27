@@ -1,0 +1,1 @@
+create table test_t1(id int,name varchar(20)); CREATE TABLE insert into test_t1 values(1,'t1'),(2,'t2'),(3,'t3'),(4,'t4'),(5,'t5'),(6,'t6'); INSERT 0 6 create table test_t2 (like test_t1);select row_count();

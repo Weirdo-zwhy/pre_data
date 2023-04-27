@@ -1,0 +1,1 @@
+SELECT regexp_matches('abc01234xyz', '(.*)(\d+)(.*)');

@@ -1,0 +1,1 @@
+ALTER SYNONYM syn_tab RENAME TO syntab;

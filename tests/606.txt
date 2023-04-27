@@ -1,0 +1,1 @@
+SELECT extractvalue('<a><b>b</b></a>','/a/b'); SELECT extractvalue('<a xmlns="http://example.com"><b>test</b></a>', '//mydefns:b/text()',ARRAY[ARRAY['mydefns', 'http://example.com']]); SELECT extractvalue('<a><b>b1</b><b>b2</b></a>','/a/b[2]');

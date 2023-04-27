@@ -1,0 +1,1 @@
+SELECT depname, empno, salary, mode() WITHIN GROUP (ORDER BY salary) OVER (PARTITION BY depname) FROM empsalary ORDER BY depname, salary;

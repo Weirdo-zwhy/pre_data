@@ -1,0 +1,1 @@
+SELECT foo FROM regexp_split_to_table('the quick brown fox jumps over the lazy dog', '\s+') AS foo; SELECT regexp_split_to_array('the quick brown fox jumps over the lazy dog', '\s+'); SELECT foo FROM regexp_split_to_table('the quick brown fox', '\s*') AS foo;

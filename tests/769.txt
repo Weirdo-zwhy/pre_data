@@ -1,0 +1,1 @@
+select *, listagg(user_name,',') within group (order by user_name) over (partition by phone_num) from account;

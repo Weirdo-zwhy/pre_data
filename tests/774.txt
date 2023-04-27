@@ -1,0 +1,1 @@
+SELECT locate('bc', 'abc,ABC,bcd,BCD'); SELECT locate('bc', 'abc,ABC,bcd,BCD', 5);

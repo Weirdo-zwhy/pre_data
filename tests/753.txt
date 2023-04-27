@@ -1,0 +1,1 @@
+SELECT justify_hours(interval '27 hours');

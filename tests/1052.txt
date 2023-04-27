@@ -1,0 +1,1 @@
+SELECT xml_is_well_formed_content('<kb:foo xmlns:kb="http://postgresql.org/stuff">bar><</kb:foo>');

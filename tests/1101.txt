@@ -1,0 +1,1 @@
+SELECT LEVEL, LPAD (' ', 2 * (LEVEL - 1)) || ename "employee", empno, mgr FROM emp WHERE mgr IN (7839, 7782, 7902, 7788) START WITH ename IN ('BLAKE','CLARK','JONES') CONNECT BY PRIOR empno = mgr ORDER SIBLINGS BY ename ASC;

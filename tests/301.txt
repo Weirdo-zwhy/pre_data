@@ -1,0 +1,1 @@
+INSERT ALL INTO films VALUES ('UA502', 'Bananas', 105, DEFAULT, 'Comedy', '82 minutes') INTO films1 (code, title, did, date_prod, kind) VALUES ('T_601', 'Yojimbo', 106, DEFAULT, 'Drama') SELECT * FROM dual;

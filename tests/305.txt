@@ -1,0 +1,1 @@
+CREATE TABLE t2( a INT UNIQUE, b INT, c INT ); INSERT INTO t2 VALUES(1,1,1); UPDATE a = new.b + new.c; SELECT * FROM t2; UPDATE a = new.m + new.p; SELECT * FROM t2;

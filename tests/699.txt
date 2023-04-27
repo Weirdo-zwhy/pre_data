@@ -1,0 +1,1 @@
+SELECT * FROM json_each_text('{"a":"foo", "b":"bar"}')`;

@@ -1,0 +1,1 @@
+drop resource group rgroup1;

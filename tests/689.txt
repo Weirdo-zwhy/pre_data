@@ -1,0 +1,1 @@
+SELECT JSON_ARRAY(f.code,f.title,f.did) AS films FROM films AS f WHERE f.did = 103;

@@ -1,0 +1,1 @@
+SELECT ceil(-42.8);

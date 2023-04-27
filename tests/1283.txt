@@ -1,0 +1,1 @@
+CREATE TABLE base_table (id int, ts timestamptz); CREATE VIEW a_view AS SELECT * FROM base_table; ALTER VIEW a_view ALTER COLUMN ts SET DEFAULT now(); INSERT INTO base_table(id) VALUES(1);

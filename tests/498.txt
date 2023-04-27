@@ -1,0 +1,1 @@
+SELECT btrim('\000trim\001'::bytea, '\000\001'::bytea);

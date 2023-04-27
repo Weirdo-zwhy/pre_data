@@ -1,0 +1,1 @@
+SELECT regexp_matches('foo', 'not there'); SELECT regexp_matches('foobarbequebazilbarfbonk', '(b[^b]+)(b[^b]+)', 'g');

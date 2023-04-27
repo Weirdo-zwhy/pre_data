@@ -1,0 +1,1 @@
+SELECT id,unnest(string_to_array(element,'')) as elem;

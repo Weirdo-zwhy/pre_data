@@ -1,0 +1,1 @@
+SELECT employes_id from employees WHERE commission_pct = .4 OR salary > 20000 ORDER BY employee_id;

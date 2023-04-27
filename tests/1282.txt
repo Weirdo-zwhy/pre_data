@@ -1,0 +1,1 @@
+ALTER VIEW foo RENAME TO bar;

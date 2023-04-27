@@ -1,0 +1,1 @@
+PREPARE query(int, int) AS SELECT sum(bar) FROM test WHERE id > $1 AND id < $2 GROUP BY foo; EXPLAIN ANALYZE EXECUTE query(100, 200);

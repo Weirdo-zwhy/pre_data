@@ -1,0 +1,1 @@
+SELECT cit FROM CUSTOMER WHERE XMLEXISTS('$d//addr[city='tianjin']', passing info aa "d");

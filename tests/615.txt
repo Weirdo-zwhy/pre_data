@@ -1,0 +1,1 @@
+SELECT '5'::json; SELECT '[1, 2, "foo", null]'::json; SELECT '{"bar": "baz", "balance": 7.77, "active": false}'::json; SELECT '{"foo": [true, "bar"], "tags": {"a": 1, "b": null}}'::json;

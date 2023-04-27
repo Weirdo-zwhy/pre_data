@@ -1,0 +1,1 @@
+SELECT * FROM colors, color_mixing WHERE colors.col::text = color_mixing.col::text;

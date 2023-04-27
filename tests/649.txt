@@ -1,0 +1,1 @@
+CREATE SEQUENCE x_seq; SELECT has_sequence_privilege('x_seq', 'SELECT');

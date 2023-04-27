@@ -1,0 +1,1 @@
+INSERT FIRST WHEN date_prod < '2004-05-07' THEN INTO films WHEN date_prod < '2004-04-07' THEN INTO films1 SELECT * FROM tmp_films WHERE date_prod < '2004-05-07';

@@ -1,0 +1,1 @@
+SELECT entrance_date FROM students WHERE SYSDATE - entrance_date > 365 ORDER BY entrance_date;

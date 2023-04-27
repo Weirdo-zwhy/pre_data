@@ -1,0 +1,1 @@
+CREATE INDEX student_ind1 ON student(sno); CREATE INDEX EXPLAIN SELECT * FROM student, score WHERE student.sno = score.sno AND student.sno = 201;

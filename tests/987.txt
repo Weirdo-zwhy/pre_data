@@ -1,0 +1,1 @@
+SELECT n "Input Number N", to_char(n), to_char(n, '9,999,999.99') "Number with Commas", to_char(n, '0,000,000.000') "Zero-padded Number", to_char(n, '9.9EEEE') "Scientific Notation" FROM nums;

@@ -1,0 +1,1 @@
+SELECT max(col) FROM colors; SELECT min(col) FROM colors;

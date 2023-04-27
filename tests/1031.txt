@@ -1,0 +1,1 @@
+SELECT updatexml('<value>oldnode</value>', '/value', '<newvalue>newnode</newvalue>');

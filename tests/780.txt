@@ -1,0 +1,1 @@
+SELECT LOWER_INF( '(,)'::DATERANGE ) "Result" FROM DUAL;

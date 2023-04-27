@@ -1,0 +1,1 @@
+SELECT has_type_privilege('int8', 'USAGE');

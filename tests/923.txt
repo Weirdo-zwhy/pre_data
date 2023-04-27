@@ -1,0 +1,1 @@
+SELECT * from sys_stat_file('base',true);

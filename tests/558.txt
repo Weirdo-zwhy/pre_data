@@ -1,0 +1,1 @@
+SELECT date_part('hour', timestamp '2001-02-16 20:38:40'); SELECT date_part('month', interval '2 years 3 months');

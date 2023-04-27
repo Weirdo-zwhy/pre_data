@@ -1,0 +1,1 @@
+DROP TRANSFORM FOR hstore LANGUAGE plpythonu;

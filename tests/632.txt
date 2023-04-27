@@ -1,0 +1,1 @@
+SELECT get_disk_info(sys_tablespace_location(1663));

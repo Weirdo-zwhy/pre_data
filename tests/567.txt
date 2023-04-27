@@ -1,0 +1,1 @@
+SELECT deletexml('<a><b></b><b></b></a>', '//b');

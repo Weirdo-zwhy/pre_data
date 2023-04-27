@@ -1,0 +1,1 @@
+select to_json('Fred said "Hi."'::text);

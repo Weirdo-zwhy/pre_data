@@ -1,0 +1,1 @@
+ALTER PROCEDURE check_password(text) SET search_path = admin, sys_temp;

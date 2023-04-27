@@ -1,0 +1,1 @@
+SELECT xpath('//mydefns:b/text()', '<a xmlns="http://example.com"><b>test</b></a>', ARRAY[ARRAY['mydefns', 'http://example.com']]);

@@ -1,0 +1,1 @@
+ALTER TABLE distributors ALTER COLUMN street DROP NOT NULL;

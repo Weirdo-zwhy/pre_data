@@ -1,0 +1,1 @@
+CREATE PUBLIC DATABASE LINK mylink CONNECT TO 'SYSTEM' IDENTIFIED BY 'password' USING (DriverName='Oracle ODBC Driver', Host='192.168.0.1', Port=1521, Dbname='TEST', DbType='Oracle');

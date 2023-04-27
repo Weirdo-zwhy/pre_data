@@ -1,0 +1,1 @@
+select to_dsinterval('5 23:58:59.23574') from dual;

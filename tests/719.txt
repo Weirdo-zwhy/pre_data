@@ -1,0 +1,1 @@
+SELECT json_typeof('-123.4');

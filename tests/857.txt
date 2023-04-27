@@ -1,0 +1,1 @@
+select regexp_match('foobarbequebaz','ba.', 'i');

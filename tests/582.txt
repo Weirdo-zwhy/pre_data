@@ -1,0 +1,1 @@
+SELECT existsnode('//town[text() = ''Toronto'']' PASSING BY REF '<towns><town>Bidford-on-Avon</town><town>Cwmbran</town><town>Bristol</town></towns>'); SELECT existsnode('//town[text() = ''Cwmbran'']' PASSING BY REF '<towns><town>Bidford-on-Avon</town><town>Cwmbran</town><town>Bristol</town></towns>'); SELECT existsnode('<a><b>d</b></a>', '/a/b');

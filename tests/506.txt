@@ -1,0 +1,1 @@
+SELECT character_length('hello');

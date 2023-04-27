@@ -1,0 +1,1 @@
+INSERT INTO foo (f1) VALUES (42);

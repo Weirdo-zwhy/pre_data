@@ -1,0 +1,1 @@
+SELECT * FROM colors WHERE col&1 != 0; SELECT * FROM colors WHERE col = 'R,G'; SELECT * FROM colors WHERE col = 'G,R';

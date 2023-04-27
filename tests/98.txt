@@ -1,0 +1,1 @@
+CREATE SCHEMA schm; CREATE SYNONYM schm.syn_tab FOR public.tab; SELECT * FROM schm.syn_tab; ERROR: relation "SCHM.SYN_TAB" does not exist LINE 1: SELECT * FROM schm.syn_tab; SELECT * FROM SYS_SYNONYM WHERE synname = 'SYN_TAB'; SELECT status FROM ALL_OBJECTS WHERE object_name = 'SYN_TAB';

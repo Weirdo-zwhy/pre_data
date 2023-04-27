@@ -1,0 +1,1 @@
+SELECT * FROM sys_attribute WHERE attrelid = (SELECT oid FROM sys_class WHERE relname = 'mytable');

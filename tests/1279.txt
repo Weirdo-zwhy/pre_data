@@ -1,0 +1,1 @@
+ALTER TYPE rainbow ADD VALUE 'C' BEFORE 'Y';

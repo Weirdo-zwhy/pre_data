@@ -1,0 +1,1 @@
+ALTER DOMAIN zipcode SET NOT NULL;

@@ -1,0 +1,1 @@
+CREATE TABLE t1(id INT, name VARCHAR(20)); DECLARE TYPE myrecord IS RECORD(id INT, name VARCHAR(20)); r1 myrecord; BEGIN r1.id := 1; r1.name := 'new'; INSERT INTO t1 VALUES r1; END; /

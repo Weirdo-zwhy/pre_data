@@ -1,0 +1,1 @@
+SELECT GET_FORMAT('date','EUR') "GET_FORMAT";

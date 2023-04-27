@@ -1,0 +1,1 @@
+SELECT EXTRACT(hours from '80 minutes'::interval); SELECT EXTRACT(days from '80 hours'::interval);

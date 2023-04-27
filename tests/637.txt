@@ -1,0 +1,1 @@
+SELECT '{"reading": 1.230e-5}'::json, '{"reading": 1.230e-5}'::jsonb;

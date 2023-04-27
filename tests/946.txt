@@ -1,0 +1,1 @@
+SELECT sys_relation_filepath(oid) FROM sys_class WHERE relname='test';

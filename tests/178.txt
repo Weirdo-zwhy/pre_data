@@ -1,0 +1,1 @@
+CREATE TABLE tb1(i objtype); INSERT INTO tb1 VALUES(objtype()); SELECT * FROM tb1; SELECT t.i.memfunc(1) FROM tb1 t;

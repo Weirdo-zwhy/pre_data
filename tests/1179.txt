@@ -1,0 +1,1 @@
+ALTER LANGUAGE name RENAME TO new_name;

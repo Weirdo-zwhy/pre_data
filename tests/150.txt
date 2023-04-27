@@ -1,0 +1,1 @@
+CREATE TABLESPACE tblspace_tsp1 LOCATION '/data/tblspace' ONLINE;

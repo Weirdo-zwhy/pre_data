@@ -1,0 +1,1 @@
+select unix_timestamp; select unix_timestamp(); select unix_timestamp(date); select unix_timestamp(timestamp); select unix_timestamp(time); select unix_timestamp(integer); select unix_timestamp(bigint); select unix_timestamp(numeric); select unix_timestamp(text);
